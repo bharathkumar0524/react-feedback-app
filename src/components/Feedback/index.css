@@ -1,0 +1,53 @@
+/* Write your CSS code here. */
+.feedback-app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-container {
+  background-color: #ffff;
+  width: 550px;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #000;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+.feedback-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  width: 60px;
+}
+.title {
+  font-size: 12px;
+}
+.emoji-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.feedback-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.feedback-summary {
+  font-size: 14px;
+  color: #1e293b;
+}
